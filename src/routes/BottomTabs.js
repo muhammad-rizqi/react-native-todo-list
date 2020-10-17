@@ -6,7 +6,6 @@ import Todo1 from '../screens/dashboard/Todo1';
 import Todo2 from '../screens/dashboard/Todo2';
 import Profile from '../screens/dashboard/Profile';
 import Todo3 from '../screens/dashboard/Todo3';
-import DrawerNav from './DrawerNav';
 
 const TabBottom = createBottomTabNavigator();
 

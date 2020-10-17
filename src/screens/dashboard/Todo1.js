@@ -9,6 +9,7 @@ import {
   ScrollView,
   Alert,
   Modal,
+  ActivityIndicator,
 } from 'react-native';
 import FloatingActionBar from '../../components/FloatingActionBar';
 import {styles} from '../../styles/styles';
@@ -114,9 +115,7 @@ export class TodoArray extends Component {
             <View style={styles.todoList}>
               <Text style={styles.text}>TODAY TASKS</Text>
               <View>
-                {this.state.loading ? (
-                  <ActivityIndicator color="red" />
-                ) : todos.length === 0 ? (
+                {todos.length === 0 ? (
                   <Text>Kosong</Text>
                 ) : (
                   todos.map((todo, index) => (

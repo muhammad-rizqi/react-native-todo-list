@@ -136,7 +136,6 @@ export const styles = StyleSheet.create({
     marginRight: 16,
   },
   modal: {
-    backgroundColor: 'red',
     width: 350,
     padding: 16,
     alignSelf: 'center',
